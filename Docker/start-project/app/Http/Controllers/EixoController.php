@@ -34,7 +34,10 @@ class EixoController extends Controller{
      */
     public function store(Request $request)
     {
-        //
+        $obj = new Eixo();
+        $obj->nome = mb_strtoupper($request->nome, 'UTF-8');
+        $this->repository->save($obj);
+        return "<h1>Store - OK!</h1>";
     }
 
     /**
@@ -42,7 +45,8 @@ class EixoController extends Controller{
      */
     public function show(string $id)
     {
-        //
+        $data = $this->repository->findById($id);
+        return $data;
     }
 
     /**
