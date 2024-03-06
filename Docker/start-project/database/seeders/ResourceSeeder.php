@@ -6,8 +6,7 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
-class ResourceSeeder extends Seeder
-{
+class ResourceSeeder extends Seeder{
     public function run(): void {
         
         $data = [

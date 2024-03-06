@@ -7,10 +7,9 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
 class TurmaSeeder extends Seeder {
-    
     public function run(): void {
         $data = [
-            // TÉCNICO EM INFORMÁTICA
+            // Aqui é a parte de INFO
             [
                 "ano" => 2021,
                 "curso_id" => 1,
@@ -27,7 +26,7 @@ class TurmaSeeder extends Seeder {
                 "ano" => 2024,
                 "curso_id" => 1,
             ],
-            // TECNÓLOGO EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
+            // Aqui é a parte de TADS
             [
                 "ano" => 2022,
                 "curso_id" => 2,

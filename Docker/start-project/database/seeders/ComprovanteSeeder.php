@@ -6,13 +6,8 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
-class ComprovanteSeeder extends Seeder
-{
-    /**
-     * Run the database seeds.
-     */
-    public function run(): void
-    {
+class ComprovanteSeeder extends Seeder{
+    public function run(): void {
         $data = [
             [   
                 "horas" => 12,

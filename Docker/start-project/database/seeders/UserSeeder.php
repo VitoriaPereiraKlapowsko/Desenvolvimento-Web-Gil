@@ -8,9 +8,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 
 class UserSeeder extends Seeder {
-    
     public function run(): void {
-        
         $data = [
             [
                 "name" => "GIL EDUARDO DE ANDRADE", 

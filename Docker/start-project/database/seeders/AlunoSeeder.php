@@ -10,10 +10,8 @@ use Illuminate\Support\Facades\Hash;
 class AlunoSeeder extends Seeder {
    
     public function run(): void {
-
         $data = [
-            [   
-                "nome" => "LÚCIA EDUARDA SILVA ALVES",
+            [   "nome" => "LÚCIA EDUARDA SILVA ALVES",
                 "cpf" => "000.000.000-01",
                 "email" => "lucia.alves@gmail.com", 
                 "password" => Hash::make('123lucia123'), 

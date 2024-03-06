@@ -9,9 +9,8 @@ use Illuminate\Support\Facades\DB;
 class CategoriaSeeder extends Seeder {
 
     public function run(): void {
-
         $data = [
-            // TÉCNICO EM INFORMÁTICA
+            // Parte de INFO
             [
                 "nome" => "ESTÁGIO NÃO OBRIGATÓRIO",
                 "maximo_horas" => 60,
@@ -32,7 +31,7 @@ class CategoriaSeeder extends Seeder {
                 "maximo_horas" => 60,
                 "curso_id" => 1,
             ],
-            // TECNÓLOGO EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
+            // Parte de TADS
             [
                 "nome" => "CURSOS MINISTRADOS ",
                 "maximo_horas" => 40,

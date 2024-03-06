@@ -10,7 +10,6 @@ use Illuminate\Support\Facades\Hash;
 class DeclaracaoSeeder extends Seeder {
     
     public function run(): void {
-
         $data = [
             [
                 "hash" => Hash::make('aluno_id + comprovante_id'),
